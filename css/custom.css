@@ -116,6 +116,14 @@
 		transform: rotate(1080deg);
 	}
 
+
+html, body{
+  height: 100%;
+  width:100%;
+  overflow-x:hidden;
+  margin: 0;
+}
+
 .grass, .sky, .road{
   position: relative;
 }
@@ -150,20 +158,60 @@
 
 .mario
 {
-	position absolute;
-	top -40px;
-	left 0px;
+	position: absolute;
+	top: -60px;
+	left: 0px;
 	animation-name: drive;
-	animation-duration: : 3s;
+	animation-duration: 3s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
 }
 
+.luigi
+{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	animation-name: drive;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.cloud
+{
+	position: absolute;
+}
+
+.cloud:nth-child(1)
+{
+	width: 200px;
+	top: 120px;
+	opacity: 0.5;
+	animation: wind 80s linear infinite reverse;
+}
+
+.cloud:nth-child(2)
+{
+	width: 300px;
+	top: 0px;
+	opacity: 0.9;
+	animation: wind 50s linear infinite reverse;
+}
+
+/* KEYFRAMES */
 @keyframes drive
 {
-	from{
-		transform: translateX(0)
-	}
+	from{transform: translateX(-200px)}
 
-	to{
-		transform: : translateX(500px)
-	}
+	to{transform: translateX(2000px)}
+}
+
+@keyframes wind
+{
+	from{left: -200px}
+	to{left: 100%}
 }
