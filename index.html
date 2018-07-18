@@ -119,6 +119,9 @@
 		</div>
 	</div>
 
+
+
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -139,28 +142,7 @@
 		</div>
 	</div>
 
-	<div class="container text-center">
-				<h2>Compositions in progress...</h2>
-				<p>Your next big hit awaits you. Ragtag has many wonderful productions in need of your artistic expression and below are some demos which don't currently fit into any of our projects. No matter what kind of music you like to make, we can help you find your perfect match. Nothing about these songs is set in stone so come back often to see how they evolve. Email Tony (ambrioso0101@gmail.com) if you are interested in collaborating or have feedback for any of these tracks. Also, please send examples of your music or songs that influence you and we will use your input as inspiration for future endeavors.<br>
-				Hope you enjoy and stay tuned for more.</p>
-				<br>
-				<h4>Bangin</h4>
-				<audio src="beatz/bangin.wav" controls></audio>
-				<br>
-				<h4>Flare</h4>
-				<audio src="beatz/flaresMedium.wav" controls></audio>
-				<br>
-				<h4>Shook</h4>
-				<audio src="beatz/Shook.wav" controls></audio>
-				<br>
-				<h4>Under Control</h4>
-				<audio src="beatz/UnderControl.wav" controls></audio> 
-				<br>
-				<h4>Wubdub Glass</h4>
-				<audio src="beatz/wubdubGlass.wav" controls></audio>   
-	</div>
 
-	
 	<div class="container">
 		<div class="row">
 			<h4><a href="#hidden" data-toggle="collapse">Click here to learn more about our artists.</a></h4>
@@ -189,6 +171,46 @@
 		</div>
 	</div>
 
+
+
+	<div class="container text-center">
+				<h2>Compositions in progress...</h2>
+				<p>Your next big hit awaits you. Ragtag has many wonderful productions in need of your artistic expression and below is a link to some demos which don't currently fit into any of our projects. No matter what kind of music you like to make, we can help you find your perfect match. Nothing about these songs is set in stone so come back often to see how they evolve. Email Tony (ambrioso0101@gmail.com) if you are interested in collaborating or have feedback for any of these tracks. Also, please send examples of your music or songs that influence you and we will use your input as inspiration for future endeavors.
+				<br>
+				Hope you enjoy and stay tuned for more.</p>
+	</div>
+
+	<div>
+		<SCRIPT>
+		function passWord() {
+		var testV = 1;
+		var pass1 = prompt('Please Enter Your Password',' ');
+		while (testV < 3) {
+		if (!pass1) 
+		history.go(-1);
+		if (pass1.toLowerCase() == "wumb0") {
+		alert('You Got it Right!');
+		window.open('inProgress.html');
+		break;
+		} 
+		testV+=1;
+		var pass1 = 
+		prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+		}
+		if (pass1.toLowerCase()!="password" & testV ==3) 
+		history.go(-1);
+		return " ";
+		} 
+		</SCRIPT>
+		<CENTER>
+		<FORM>
+		<input type="button" value="Enter Protected Area" onClick="passWord()">
+		</FORM>
+		</CENTER>
+		<br>
+		<br>
+		<br>
+	</div>
 
   	<div class="sky">
   		<img class="cloud" src="css-animations-playlist-master/css-animations-playlist-master/mario-examples/img/cloud.png">
