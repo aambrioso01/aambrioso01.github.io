@@ -1,3 +1,20 @@
+h2
+{
+	color: #2A114E;
+	font-size: 35px;
+}
+
+h3
+{
+	color: #44296C;
+	font-size: 25px;
+}
+
+p
+{
+	font-size: 18px;
+}
+
 .navbar
 	{
 		margin-bottom: 0;
@@ -17,7 +34,7 @@
 	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover
 	{
 		color: #FFF;
-		background-color: #5E4485;
+		background-color: #8069A1;
 	}
 	.navbar-inverse .navbar-nav li a
 	{
@@ -102,7 +119,7 @@
 		width: 100px;
 		padding: 50px 0;
 		line-height: 0;
-		margin 60px auto;
+		margin: 60px auto;
 		background: pink;
 		color: white;
 		border-radius: 50px;
@@ -122,6 +139,7 @@ html, body{
   width:100%;
   overflow-x:hidden;
   margin: 0;
+  font-family: open sans;
 }
 
 .grass, .sky, .road{
