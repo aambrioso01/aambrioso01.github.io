@@ -59,6 +59,7 @@ p
 	background: #5E4485;
 	border: 2px solid #FFF;
 	transition: 1s;
+	margin: 10px;
 }
 
 .btn:hover
@@ -318,4 +319,15 @@ html, body{
 	padding-top: 30px;
 	text-align: center;
 	font-size: 75px;
+}
+
+.spotify
+{
+	border-bottom: 2px solid #808080;
+	padding: 15px;
+}
+
+.youtube
+{
+	padding: 15px;
 }

@@ -1,0 +1,14 @@
+/* cell phone */
+@media only screen and (max-width: 480px) {
+	.mission-statement p
+	{
+		margin: 8px 30px 8px;
+		border-top: 2px solid #808080;
+		padding: 8px 30px 8px;
+	}
+
+	.in-progress
+	{
+		padding: 8px 30px 8px;
+	}
+}
