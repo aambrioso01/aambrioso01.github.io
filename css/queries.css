@@ -1,5 +1,5 @@
 /* cell phone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1250px) {
 	.mission-statement p
 	{
 		margin: 8px 30px 8px;
@@ -7,8 +7,56 @@
 		padding: 8px 30px 8px;
 	}
 
-	.in-progress
+	.in-progress p
 	{
-		padding: 8px 30px 8px;
+		margin: auto;
+		max-width: 75%;
+		text-align: center;
+	}
+
+	.bio-text
+	{
+		padding: 20px;
+		border-bottom: 2px solid #808080;
+		float: right;
+	}
+
+	.bio-text-bottom
+	{
+		padding-bottom: 20px;
+		float: right;
+	}
+	.spotify-btn
+	{
+		margin: 0px;
+	}
+	.soundcloud-btn
+	{
+
+	}
+}
+
+@media (max-width: 900px)
+{
+	.fa
+	{
+		font-size: 20px;
+		padding: 10px;
+	}
+}
+	
+@media (max-width: 600px)
+{
+	.carousel-caption
+	{
+		display: none;
+	}
+	#icon
+	{
+		max-width: 150px;
+	}
+	h2
+	{
+		font-size: 1.7em;
 	}
 }

@@ -59,7 +59,7 @@ p
 	background: #5E4485;
 	border: 2px solid #FFF;
 	transition: 1s;
-	margin: 10px;
+	margin: 5px;
 }
 
 .btn:hover
@@ -100,30 +100,6 @@ footer
 	text-decoration: none;
 }
 	
-@media (max-width: 900px)
-{
-	.fa
-	{
-		font-size: 20px;
-		padding: 10px;
-	}
-}
-	
-@media (max-width: 600px)
-{
-	.carousel-caption
-	{
-		display: none;
-	}
-	#icon
-	{
-		max-width: 150px;
-	}
-	h2
-	{
-		font-size: 1.7em;
-	}
-}
 
 html, body{
   height: 100%;
@@ -131,6 +107,7 @@ html, body{
   overflow-x:hidden;
   margin: 0;
   font-family: open sans;
+  background-image:url("img/backgrounds/brickwall_@2X.png");
 }
 
 .grass, .sky, .road{
@@ -225,12 +202,14 @@ html, body{
 	to{left: 100%}
 }
 
-.collapse img
+.bio-pic
 {
-	height: 150px;
+	height: 120px;
+	border-radius: 120px;
+	border: 1px solid #44296C;
+	margin: 5px;
 	width: auto;
-	padding-bottom: 20px;
-	border-radius: 50%;
+	padding: 8px;
 	float: left;
 }
 
@@ -243,14 +222,28 @@ html, body{
 
 .bio-text
 {
-	padding-bottom: 50px;
-	border-bottom: 2px solid #808080;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #808080;
+	float: right;
+}
+
+.bio-text-bottom
+{
+	padding-bottom: 40px;
 	float: right;
 }
 
 .in-progress
 {
-	padding: 50px 300px 50px;
+	margin: 5px;
+	padding: 50px;
+}
+
+.in-progress p
+{
+	margin: auto;
+	max-width: 55%;
+	text-align: center;
 }
 
 .mission-statement img
@@ -285,7 +278,7 @@ html, body{
 
 .mission-statement i
 {
-	font-size: 75px;	
+	font-size: 60px;	
 }
 
 .mission-statement p
@@ -314,20 +307,32 @@ html, body{
     border-radius: 50%;
 }
 
-.fa-pencil-alt
+.fa-gamepad
 {
 	padding-top: 30px;
 	text-align: center;
-	font-size: 75px;
+	font-size: 100px;
 }
 
 .spotify
 {
-	border-bottom: 2px solid #808080;
-	padding: 15px;
+	margin: 15px 0px
 }
+
 
 .youtube
 {
+	max-height: 100vh;
 	padding: 15px;
+}
+
+i
+{
+	padding: 8px 20px;
+}
+
+.spotify-container
+{
+	border-bottom: 1px solid #808080;
+	border-top: 1px solid #808080;
 }
