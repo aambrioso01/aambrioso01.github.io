@@ -1,3 +1,7 @@
+/* COLORS 
+purple 1: #5E4485
+*/
+
 h2
 {
 	color: #2A114E;
@@ -36,7 +40,7 @@ p
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover
 {
 	color: #FFF;
-	background-color: #8069A1;
+	background-color: #5E4485;
 }
 
 .navbar-inverse .navbar-nav li a
@@ -233,19 +237,6 @@ html, body{
 	float: right;
 }
 
-.in-progress
-{
-	margin: 5px;
-	padding: 50px;
-}
-
-.in-progress p
-{
-	margin: auto;
-	max-width: 55%;
-	text-align: center;
-}
-
 .mission-statement img
 {
 	height: 200px;
@@ -333,6 +324,5 @@ i
 
 .spotify-container
 {
-	border-bottom: 1px solid #808080;
 	border-top: 1px solid #808080;
 }
