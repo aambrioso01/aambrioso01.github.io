@@ -37,6 +37,13 @@ p
 	padding: 0 8px 4px;
 }
 
+.navbar-brand2
+{
+	float: left;
+	min-height: 30px;
+	padding-top: 5px;
+}
+
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover
 {
 	color: #FFF;
@@ -89,11 +96,11 @@ footer
 	background-color: #5E4485;
 	padding: 5%;
 	color: #FFF;
-}
-	
+}	
+
 .fa
 {
-	padding: 15px;
+	padding: 5px;
 	font-size: 25px;
 	color: #FFF;
 }
@@ -274,7 +281,7 @@ html, body{
 
 .mission-statement p
 {
-	margin: 10px 60px 10px;
+	margin: 15px 60px 15px;
 	border-top: 2px solid #808080;
 	padding: 15px 50px 15px;
 }
@@ -324,5 +331,7 @@ i
 
 .spotify-container
 {
+	margin: 10px;
+	padding: 40px;
 	border-top: 1px solid #808080;
 }
