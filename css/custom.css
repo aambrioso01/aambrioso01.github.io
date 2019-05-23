@@ -51,7 +51,7 @@ p
 {
 	float: left;
 	padding: 0px 10px;
-	max-width: 200px;
+	max-width: 20%;
 	height: auto;
 }
 
@@ -65,8 +65,8 @@ p
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover
 {
 	color: #FFF;
-	background-color: #cc0000;
-	margin: 12px 8px;
+	background-color: #333333;
+	margin-top: 30px;
 }
 
 .navbar-inverse .navbar-nav li a
