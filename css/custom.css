@@ -308,7 +308,7 @@ html, body{
 .spotify
 {
 	padding-top: 15px;
-	margin: 15px 0px;
+	margin: 0px;
 }
 
 i
@@ -319,7 +319,7 @@ i
 .spotify-container
 {
 	margin: 0px;
-	padding: 0px 130px;
+	padding: 0px;
 	border-top: 1px solid #808080;
 }
 
