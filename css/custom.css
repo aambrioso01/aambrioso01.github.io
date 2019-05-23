@@ -39,6 +39,11 @@ p
 	border: 0;
 }
 
+.navbar-header a
+{
+	width: 1200px;
+}
+
 .navbar-brand
 {
 	float: left;
@@ -50,7 +55,7 @@ p
 .navbar-brand img
 {
 	float: left;
-	padding: 0px 10px;
+	padding: 10px;
 	max-width: 20%;
 	height: auto;
 }
@@ -66,7 +71,8 @@ p
 {
 	color: #FFF;
 	background-color: #333333;
-	margin-top: 30px;
+	float: right;
+	margin: 20px;
 }
 
 .navbar-inverse .navbar-nav li a
@@ -240,35 +246,11 @@ html, body{
 	to{left: 100%}
 }
 
-.bio-pic
-{
-	height: 120px;
-	border-radius: 120px;
-	border: 1px solid #44296C;
-	margin: 5px;
-	width: auto;
-	padding: 8px;
-	float: left;
-}
-
 .artist-name
 {
 	float: left;
 	margin-top: 55px;
 	margin-left: 25px;
-}
-
-.bio-text
-{
-	padding-bottom: 40px;
-	border-bottom: 1px solid #808080;
-	float: right;
-}
-
-.bio-text-bottom
-{
-	padding-bottom: 40px;
-	float: right;
 }
 
 .mission-statement img
@@ -313,15 +295,6 @@ html, body{
 	padding: 15px 50px 15px;
 }
 
-.youfAd
-{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 220px;
-	width: auto;
-}
-
 .fab
 {
 	color: #808080;
@@ -341,7 +314,8 @@ html, body{
 
 .spotify
 {
-	margin: 15px 0px
+	padding-top: 15px;
+	margin: 15px 0px;
 }
 
 
