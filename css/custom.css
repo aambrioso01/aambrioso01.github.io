@@ -285,7 +285,7 @@ html, body{
 {
 	margin: 15px 60px 15px;
 	border-top: 2px solid #808080;
-	padding: 15px 50px 15px;
+	padding: 15px 60px 15px;
 }
 
 .fab
@@ -303,6 +303,11 @@ html, body{
 	padding-top: 30px;
 	text-align: center;
 	font-size: 100px;
+}
+
+.fa-home
+{
+	color: #F40000;
 }
 
 .spotify
