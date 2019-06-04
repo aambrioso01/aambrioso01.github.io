@@ -7,7 +7,9 @@ red 1: #F40000
 red 2: #cc0000
 red 3: #660000
 
-red text: #b30000;
+red text: #b30000
+
+soundcloud orange: #ff7733
 
 */
 
@@ -41,7 +43,7 @@ p
 
 .navbar-header a
 {
-	width: 1200px;
+	width: 1000px;
 }
 
 .navbar-brand
@@ -54,10 +56,13 @@ p
 
 .navbar-brand img
 {
+	margin: 3px;
 	float: left;
-	padding: 10px;
+	padding: 4px;
 	max-width: 20%;
 	height: auto;
+	border: 1px solid #F40000;
+	border-radius: 4px;
 }
 
 .navbar-brand2
@@ -79,12 +84,6 @@ p
 {
 	padding: 10px;
 	color: #D5D5D5;
-}
-
-.navbar img
-{
-	border: 2px solid #fff;
-	border-radius: 4px;
 }
 
 .carousel-caption
@@ -109,6 +108,14 @@ p
 	border: 2px solid #FFF;
 	transition: 1s;
 	margin: 5px;
+}
+
+.soundcloud-btn .btn
+{
+	background: #ff7733;
+	border-radius: 30px;
+	padding: 8px 18px;
+	margin: 8px;
 }
 
 .btn:hover
@@ -335,9 +342,8 @@ i
 
 .spotify-container
 {
-	margin: 0px;
+	margin: 25px;
 	padding: 0px;
-	border-top: 1px solid #808080;
 }
 
 .video-container {
