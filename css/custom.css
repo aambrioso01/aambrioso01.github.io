@@ -43,7 +43,7 @@ p
 
 .navbar-header a
 {
-	width: 1000px;
+	width: 500px;
 }
 
 .navbar-brand
@@ -59,7 +59,7 @@ p
 	margin: 3px;
 	float: left;
 	padding: 4px;
-	max-width: 20%;
+	max-width: 40%;
 	height: auto;
 	border: 1px solid #F40000;
 	border-radius: 4px;
@@ -170,106 +170,6 @@ html, body{
   overflow-x:hidden;
   margin: 0;
   font-family: open sans;
-  background-image:url("img/backgrounds/brickwall_@2X.png");
-}
-
-.grass, .sky, .road{
-  position: relative;
-}
-
-.sky{
-  height: 35%;
-  background: skyblue;
-}
-
-.grass{
-  height: 20%;
-  background: seagreen;
-}
-
-.road{
-  height: 30%;
-  background: dimgrey;
-  box-sizing: border-box;
-  border-top: 10px solid grey;
-  border-bottom: 10px solid grey;
-  width: 100%;
-}
-
-.lines{
-  box-sizing: border-box;
-  border: 5px dashed #fff;
-  height: 0px;
-  width: 100%;
-  position: absolute;
-  top: 45%;
-}
-
-.mario
-{
-	position: absolute;
-	top: -60px;
-	left: 0px;
-	animation-name: drive;
-	animation-duration: 3s;
-	animation-fill-mode: both;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	
-}
-
-.luigi
-{
-	position: absolute;
-	top: 60px;
-	left: 0px;
-	animation-name: drive;
-	animation-duration: 7s;
-	animation-fill-mode: both;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
-.cloud
-{
-	position: absolute;
-}
-
-.cloud:nth-child(1)
-{
-	width: 100px;
-	top: 120px;
-	opacity: 0.5;
-	animation: wind 80s linear infinite reverse;
-}
-
-.cloud:nth-child(2)
-{
-	width: 200px;
-	top: 0px;
-	opacity: 0.9;
-	animation: wind 50s linear infinite reverse;
-}
-
-/* KEYFRAMES */
-@keyframes drive
-{
-	from{transform: translateX(-200px)}
-
-	to{transform: translateX(2000px)}
-}
-
-@keyframes wind
-{
-	from{left: -200px}
-	to{left: 100%}
-}
-
-.mission-statement img
-{
-	height: 200px;
-	width: auto;
-	float: bottom;
 }
 
 .stream
@@ -295,18 +195,6 @@ html, body{
 	float: left;
 }
 
-.mission-statement i
-{
-	font-size: 60px;	
-}
-
-.mission-statement p
-{
-	margin: 15px 60px 15px;
-	border-top: 2px solid #808080;
-	padding: 15px 60px 15px;
-}
-
 .fab
 {
 	color: #808080;
@@ -324,7 +212,7 @@ html, body{
 	font-size: 100px;
 }
 
-.fa-home
+.fa-home, .fa-store, .fa-video
 {
 	color: #F40000;
 }
@@ -340,23 +228,34 @@ i
 	padding: 8px 20px;
 }
 
-.spotify-container
+.apple-music-container
 {
-	margin: 0px;
+	margin: 30px;
 	padding: 0px;
-	border-top: 1px solid #808080;
 }
 
-.video-container {
+.videos
+{
+	margin: 30px;
+}
+
+.videos h2
+{
+	margin: 10px;
+}
+
+.video-container
+{
 	margin: 30px;
 	position: relative;
-	padding-bottom: 56.25%;
+	padding-bottom: 56%;
 	padding-top: 30px; height: 0; overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
-.video-container embed {
+.video-container embed
+{
 	position: absolute;
 	top: 0;
 	left: 0;
