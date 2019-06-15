@@ -72,12 +72,20 @@ p
 	padding-top: 5px;
 }
 
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus
 {
 	color: #FFF;
 	background-color: #333333;
 	float: right;
 	margin: 20px;
+	font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav .active a:hover
+{
+	color: #F40000;
+	background-color: #333333;
+	text-decoration: underline;
 }
 
 .navbar-inverse .navbar-nav li a
@@ -205,16 +213,12 @@ html, body{
     border-radius: 50%;
 }
 
-.fa-gamepad
+.fa-microphone
 {
-	padding-top: 30px;
+	margin-top: 10px;
+	padding: 30px;
 	text-align: center;
-	font-size: 100px;
-}
-
-.fa-home, .fa-store, .fa-video
-{
-	color: #F40000;
+	font-size: 80px;
 }
 
 .spotify
