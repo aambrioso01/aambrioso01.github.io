@@ -78,7 +78,7 @@ p
 	background-color: #333333;
 	float: right;
 	margin: 20px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .navbar-inverse .navbar-nav .active a:hover
@@ -178,6 +178,8 @@ html, body{
   overflow-x:hidden;
   margin: 0;
   font-family: open sans;
+  letter-spacing: 2px;
+  line-height: 1.5;
 }
 
 .stream
@@ -238,6 +240,11 @@ i
 	padding: 0px;
 }
 
+.apple-music
+{
+	padding: 20px;
+}
+
 .videos
 {
 	margin: 30px;
@@ -265,4 +272,24 @@ i
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#event
+{
+	margin-bottom: 40px;
+}
+
+.events img
+{
+    max-width: 75%;
+}
+
+.events p
+{
+	margin: 10px;
+}
+
+.events a
+{
+	color: #cc0000;
 }
