@@ -274,6 +274,14 @@ i
 	height: 100%;
 }
 
+video
+{
+	display: block;
+	margin: 30px auto;
+	width: 95%;
+	height: 95%;
+}
+
 #event
 {
 	margin-bottom: 40px;
