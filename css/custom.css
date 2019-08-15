@@ -118,13 +118,6 @@ p
 	margin: 5px;
 }
 
-.soundcloud-btn .btn
-{
-	background: #ff7733;
-	border-radius: 30px;
-	padding: 8px 18px;
-	margin: 8px;
-}
 
 .btn:hover
 {
@@ -182,19 +175,6 @@ html, body{
   line-height: 1.5;
 }
 
-.stream
-{
-	float: left;
-}
-
-.stream-text
-{
-	float: right;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	border-top: 2px solid #808080;
-	margin-bottom: 25px
-}
 
 .fa-headphones
 {
@@ -223,26 +203,9 @@ html, body{
 	font-size: 80px;
 }
 
-.spotify
-{
-	padding-top: 15px;
-	margin: 0px;
-}
-
 i
 {
 	padding: 8px 20px;
-}
-
-.apple-music-container
-{
-	margin: 30px;
-	padding: 0px;
-}
-
-.apple-music
-{
-	padding: 20px;
 }
 
 .videos
@@ -305,4 +268,9 @@ video
 .beats
 {
 	margin-bottom: 30px;
+}
+
+.stream
+{
+	padding: 20px;
 }
