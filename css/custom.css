@@ -252,7 +252,8 @@ video
 
 .events img
 {
-    max-width: 75%;
+    width: auto;
+    height: 500px;
 }
 
 .events p
