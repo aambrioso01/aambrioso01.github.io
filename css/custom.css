@@ -13,6 +13,11 @@ soundcloud orange: #ff7733
 
 */
 
+a
+{
+	color: #fff;
+}
+
 h2
 {
 	color: #b30000;
@@ -115,7 +120,7 @@ p
 	background: #cc0000;
 	border: 2px solid #FFF;
 	transition: 1s;
-	margin: 5px;
+	margin-bottom: 25px;
 }
 
 
